@@ -27,21 +27,20 @@ function WebItem({ name, icon, details, link, stack }) {
             <span title={`${name}`}>{icon}</span>
           </div>
         </summary>
+
         <div className="bg-white text-left p-4 rounded-b-md h-full text-black">
-          {details}
-          <div className="flex justify-between pt-2">
-            <div className="flex gap-2">
-              {stack.map((tecnology) => (
-                <span>{tecnology}</span>
-              ))}
-            </div>
+          <div className="flex justify-center gap-2 pb-2">
+            {stack && stack.map((tecnology) => <span>{tecnology}</span>)}
+          </div>
+          <p> {details}</p>
+          <p className="flex justify-end pt-2">
             <a
               href={link}
               className="font-bold text-[#1467b5] underline hover:text-[#0384fc]"
             >
               {getLinkName(link)}
             </a>
-          </div>
+          </p>
         </div>
       </details>
     </div>
