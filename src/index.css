@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-main;
+  @apply text-white;
+  @apply bg-gradient-to-r from-[#00203e] via-primary via-50% to-[#00203e];
+}
+
+.accent {
+  @apply bg-gradient-to-r from-secondary to-highlight;
+}
+
+.stripes2 {
+  @apply from-gray-200 from-10% via-gray-300 via-30% to-gray-100 to-90% bg-gradient-to-bl;
+}
