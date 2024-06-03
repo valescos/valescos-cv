@@ -1,4 +1,5 @@
 import {
+  Footprints,
   GitCompareArrows,
   ListChecks,
   MessagesSquare,
@@ -17,32 +18,32 @@ import {
 } from "../../icons/Icons";
 
 const WEB_ITEMS = [
-  {
-    id: "001wi",
-    name: "Доска объявлений",
-    stack: [REACT_ICON, REDUX_ICON, JAVASCRIP_ICON],
-    details: (
-      <p>
-        Учебный проект — месседжборд. База данных — Firestore. Размещен на
-        хостинге Firebase.
-      </p>
-    ),
-    icon: <MessagesSquare />,
-    link: "https://valescos-project.web.app",
-  },
-  {
-    id: "002wi",
-    name: "ShoperList",
-    stack: [JAVASCRIP_ICON, HTML_ICON, CSS_ICON],
-    details: (
-      <p>
-        Простой составитель списков покупок. Сделан для практики в процесе
-        обучения.
-      </p>
-    ),
-    icon: <ListChecks />,
-    link: "https://valescos.github.io",
-  },
+  // {
+  //   id: "001wi",
+  //   name: "Доска объявлений",
+  //   stack: [REACT_ICON, REDUX_ICON, JAVASCRIP_ICON],
+  //   details: (
+  //     <p>
+  //       Учебный проект — месседжборд. База данных — Firestore. Размещен на
+  //       хостинге Firebase.
+  //     </p>
+  //   ),
+  //   icon: <MessagesSquare />,
+  //   link: "https://valescos-project.web.app",
+  // },
+  // {
+  //   id: "002wi",
+  //   name: "ShoperList",
+  //   stack: [JAVASCRIP_ICON, HTML_ICON, CSS_ICON],
+  //   details: (
+  //     <p>
+  //       Простой составитель списков покупок. Сделан для практики в процесе
+  //       обучения.
+  //     </p>
+  //   ),
+  //   icon: <ListChecks />,
+  //   link: "https://valescos.github.io",
+  // },
   {
     id: "003wi",
     name: "Таблица",
@@ -70,6 +71,14 @@ const WEB_ITEMS = [
     ),
     icon: <GitCompareArrows />,
     link: "https://valescos-test-task-2.netlify.app",
+  },
+  {
+    id: "005wi",
+    name: "проЛапти",
+    stack: [VUE_JS_ICON, TYPE_SCRIPT_ICON, TAILWIND_ICON],
+    details: <p>Шуточный сайт, разработанный для тренировки.</p>,
+    icon: <Footprints />,
+    link: "https://valescos-practice-1.netlify.app",
   },
 ];
 
