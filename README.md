@@ -3,3 +3,4 @@
 
 - React
 - TailwindCSS
+- Vite
