@@ -1,2 +1,5 @@
-# valescos-cv
- Fancy curriculum vitae page
+# Мое резюме
+[valescos-cv.netlify.app](https://valescos-cv.netlify.app/)
+
+- React
+- TailwindCSS
